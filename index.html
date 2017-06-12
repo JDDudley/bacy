@@ -1,55 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>BACYPAA</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Custom Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli|Lobster+Two" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
+  <!-- Start navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
+              <!-- Header BACYPAA text -->
                 <a class="navbar-brand" href="#home">BACYPAA</a>
+              <!-- End Header BACYPAA text -->
+              <!-- Navbar mobile button -->
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapse" aria-expanded="false">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+              <!-- End navbar mobile button -->
             </div>
+            <!-- Navbar menu item list -->
             <ul class="nav navbar-nav navbar-right navbar-collapse collapse" id="menu-collapse">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#events">Events</a></li>
-                <!--<li><a href="#soberlution">Soberlution</a></li>-->
-                <li><a href="#speakers">Speakers</a></li>
+                <!-- <li><a href="#speakers">Speakers</a></li> --> <!-- Speakers Link - Not Currently Used -->
+                <li><a href="#soberlution">Soberlution</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
+            <!-- End navbar menu item list -->
         </div>
     </nav>
     <div class="container-fluid" id="home">
         <div class="row full-height">
             <div class="banner">
+              <!-- Banner image -->
                 <img src="images/bacypaa.png" alt="BACYPAA - Boise Area Council of Young People in Alcoholics Anonymous" class="banner-img">
             </div>
             <div class="col-xs-12 white-bg">
+              <!-- Banner title text -->
                 <h1 class="full-name">Boise Area Council of Young People in Alcoholics Anonymous</h1>
             </div>
-            <!--<div class="col-xs-12 col-sm-6 text-center">
-                <h2 class="section-h2">Upcoming Events</h2>-->
-            <!--<div class="col-xs-6">
+            <!-- Upcoming Events Section - Banner Section  -->
+            <div class="col-xs-12 col-sm-6 text-center">
+                <h2 class="section-h2">Upcoming Events</h2>
+                <!-- H2Olympics -->
+                <!-- <div class="col-xs-6">
                     <h4>Event</h4>
                     <a href="events/image.jpg" target="_blank"><img src="events/image.jpg" class="event-img" alt="Event"></a><br>
                     Date<br>
                     Info
-                </div>-->
-            <!--</div>-->
-            <!-- Top -->
+                </div> -->
+                <!-- End H2Olympics -->
+                <!-- WACYPAA Mid-Year -->
+                <!-- <div class="col-xs-6">
+                    <h4>Event</h4>
+                    <a href="events/image.jpg" target="_blank"><img src="events/image.jpg" class="event-img" alt="Event"></a><br>
+                    Date<br>
+                    Info
+                </div> -->
+                <!-- End WACYPAA Mid-Year -->
+                <!-- Example Event -->
+                <!-- <div class="col-xs-6">
+                    <h4>Event</h4>
+                    <a href="events/image.jpg" target="_blank"><img src="events/image.jpg" class="event-img" alt="Event"></a><br>
+                    Date<br>
+                    Info
+                </div> -->
+                <!-- End Example Event -->
+            </div>
+            <!-- End Upcoming Events Section -->
             <div class="col-xs-12 white-bg" style="margin-bottom: -12px; padding-bottom: 15px;">
+              <!-- Young & Sober Info Link Section - Banner Section -->
                 <div class="pull-right" style="margin-left: 12px; margin-bottom: 12px;">
                     <h2 class="section-h2">Young &amp; Sober?</h2>
                     <ul class="list-group">
@@ -57,6 +88,8 @@
                         <li class="list-group-item"><a href="http://www.aa.org/pdf/products/f-9_amessagetoteenagers-1.pdf" target="_blank">A Message to Teenagers</a></li>
                     </ul>
                 </div>
+              <!-- End Young & Sober Section -->
+              <!-- FAPS -->
                 <h2 class="section-h2">Facts, Aims &amp; Purposes</h2>
                 <p class="text-justify">We are the Boise Area Committee of Young People in Alcoholics Anonymous!</p>
                 <p class="text-justify">Our history began when young members of AA wanted not only to stay sober themselves but to carry the message
@@ -74,73 +107,89 @@
                     life. We do this to create the fellowship we crave, for ourselves and for you.</p>
                 <p class="text-justify">All are welcome here. There is no age limit in Young People's AA. Keeping with our Third Tradition; "The
                     only requirement for membership is a desire to stop drinking."</p>
+              <!-- End FAPS -->
             </div>
         </div>
-        <!-- Events -->
+        <!-- Events Section -->
         <div class="row full-height" id="events">
             <div class="col-xs-12">
                 <h1 class="section-h1">Events Calendar</h1>
                 <div class="event-cal">
-                    <!-- <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;height=510&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=4vp5svd8ots1iqd0bvvms72ajg%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FDenver"
-                        style="border-width:0 " width="100%" height="510" frameborder="0" scrolling="no"></iframe> -->
+                  <!-- Embed Google Calendar -->
                     <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ADD8E6&amp;src=4vp5svd8ots1iqd0bvvms72ajg%40group.calendar.google.com&amp;color=%FFFFFF&amp;ctz=America%2FDenver"
                         style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
-        <!-- Speakers -->
-        <div class="row full-height white-bg" id="speakers">
+        <!-- End Events Section -->
+        <!-- Speakers - Not Currently Displayed -->
+        <!-- <div class="row full-height white-bg" id="speakers">
             <div class="hidden-xs col-sm-1 col-md-3"></div>
             <div class="col-xs-12 col-sm-10 col-md-6">
                 <h1 class="section-h1">Speakers</h1>
                 Speaker List
             </div>
-        </div>
-        <!-- Soberlution -->
-        <!--<div class="row full-height white-bg" id="soberlution">
+        </div> -->
+        <!-- Soberlution Section -->
+        <div class="row full-height white-bg" id="soberlution">
             <div class="hidden-xs col-sm-1 col-md-3"></div>
             <div class="col-xs-12 col-sm-10 col-md-6">
                 <h1 class="section-h1">Soberlution</h1><br><br>
                 <h2 class="text-center">Soberlution is an annual conference held in Idaho.</h2><br><br>
                 <h2 class="text-center">Stay Tuned for Information about Pre-Registration for the upcoming Soberlution VII!</h2>
             </div>
-        </div>-->
-        <!-- Contact -->
+        </div>
+        <!-- End Soberlution Section -->
+        <!-- Contact Section -->
         <div class="row full-height" id="contact">
             <div class="col-xs-1 col-sm-3 col-lg-4"></div>
             <div class="col-xs-10 col-sm-6 col-lg-4">
                 <h1 class="section-h1">Contact Us</h1>
+                <!-- Start contact form -->
                 <form class="form-group" action="//formspree.io/contact@bacypaa.org" method="POST">
+                  <!-- Name -->
                     <label for="contact-name" class="col-form-label text-right">Name:</label>
                     <input type="text" class="form-control" name="name" id="contact-name" placeholder="Name" required>
+                  <!-- Email -->
                     <label for="contact-email" class="col-form-label text-right">Email:</label>
                     <input type="email" class="form-control" name="email" id="contact-email" placeholder="you@domain.com" required>
+                  <!-- Phone -->
                     <!-- <label for="contact-phone" class="col-form-label text-right">Phone:</label>
                         <input type="text" class="form-control" name="phone" id="contact-phone" placeholder="(888) 555-1234"> -->
+                  <!-- Subject -->
                     <label for="contact-subject" class="col-form-label text-right">Subject:</label>
                     <input type="text" class="form-control" name="_subject" id="contact-subject" placeholder="Subject Line" required>
+                  <!-- Message -->
                     <label for="contact-body" class="col-form-label text-right">Message:</label>
                     <textarea class="form-control" name="message" id="contact-message" rows="4" required></textarea>
+                  <!-- Gotcha for spam prevention -->
                     <input type="text" name="_gotcha" style="display:none" id="contact-gotcha" />
+                  <!-- Submit Button -->
                     <div class="text-center">
                         <br><br>
                         <button type="submit" class="btn btn-primary" id="contact-submit" name="contact-submit">Send Message</button>
                     </div>
                 </form>
+                <!-- End contact form -->
             </div>
         </div>
+        <!-- End Contact Section -->
+        <!-- Footer Section -->
         <div class="row">
             <div class="col-xs-12 text-center footer">
                 A.A. &amp; Alcoholics Anonymous are Trademarks of <a href="http://www.aa.org" target="_blank">Alcoholics Anonymous World Services, Inc.</a><br>
                 <a href="http://www.idahoarea18.org">Idaho Area 18 Alcoholics Anonymous General Service Conference Area</a>
             </div>
         </div>
+        <!-- End Footer -->
     </div>
+    <!-- Include JQuery Javascript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
+    <!-- Include Bootstrap Javascript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <!-- Include Custom Javascript -->
     <script src="index.js"></script>
 </body>
-
 </html>

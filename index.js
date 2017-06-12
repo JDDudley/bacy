@@ -1,5 +1,6 @@
+// Document.Ready Function Sets up SmoothScroll
 $(document).ready(function(){
-    //smooth scroll
+//smooth scroll
 // $(document).scroll('smooth')
   $("a").on('click', function(event) {
     if (this.hash !== "") {
